@@ -1,6 +1,12 @@
 [package]
-name = "IR"
+name = "text_preprocessor"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+unicode-segmentation = "1.10"
+rust-stemmers = "1.2"
+once_cell = "1.18"
+walkdir = "2.3"
+anyhow = "1.0"
+rayon = "1.7"
